@@ -37,7 +37,7 @@ export const POST = async () => {
     createDBConnection();
     cookies().delete("incomming_user");
     return NextResponse.json(
-      { message: "something went wrong" },
+      { message: "success" },
       { status: 200 }
     );
   } catch (err) {
